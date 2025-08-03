@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    NODE_ENV: "production"
+    NODE_ENV: "production" 
     PORT: "3200"
     LOG_DIR: "/var/log/react-node-mysql-app/backend"
   parameter-store:
