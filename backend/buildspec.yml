@@ -11,12 +11,7 @@ env:
     DB_PORT: "/nodeapp/db/port"
     DB_USER: "/nodeapp/db/user"
     DB_NAME: "/nodeapp/db/name"
-  exported-variables:
-    - DB_HOST
-    - DB_PORT
-    - DB_USER
-    - DB_PASSWORD
-    - DB_NAME 
+
 phases:
   install:
     runtime-versions:
