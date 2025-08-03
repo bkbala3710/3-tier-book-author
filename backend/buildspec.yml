@@ -6,7 +6,7 @@ env:
     PORT: "3200"
     LOG_DIR: "/var/log/react-node-mysql-app/backend"
   parameter-store:
-    DB_PASSWORD: "/nodeapp/db/password" 
+    DB_PASSWORD: "/nodeapp/db/password"
     DB_HOST: "/nodeapp/db/hostname"
     DB_PORT: "/nodeapp/db/port" 
     DB_USER: "/nodeapp/db/user"
